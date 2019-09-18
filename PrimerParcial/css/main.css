@@ -108,7 +108,7 @@ p{
     font-size: 11em;
     margin: 0.13em;
 }
-
+/*Color al boton verde*/
 .hide-mobile.show-desktop > i{
     color: #0AC693;
     font-size: 4em;

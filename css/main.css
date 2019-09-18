@@ -26,15 +26,14 @@ body {
 
 /*Arreglo de nav*/
 
-nav > ul > li:last-child > a{
+nav > ul > li:last-child > a{ /*color a contacto*/
     color: red;
 }
 
 nav{
     margin: 0;
-    font-size: 2em;
+    font-size: 2em; /*tama;o para  letras en nav*/
 }
-/*     */
 
 
 
@@ -75,6 +74,10 @@ p{
 }
 
 /* Big area */
+.big-hero{ /*margen*/
+    margin: 0 0 4em 0;
+}
+
 .big-hero img {
     width: 150px;
 }
@@ -96,23 +99,29 @@ p{
 .social-links{
     list-style: none;
     padding: 0;
-    margin-top: 3em;
+    margin-top: 0em;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+}
+
+.fab{
+    font-size: 6em; /*tama;o de logos*/
+    margin: 0.1em 0.2em 0.5em 0.2em;/*espacio entre logos*/
+    margin-bottom: 0.1em;
 }
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 11em;
-    margin: 0.13em;
 }
 
-.hide-mobile.show-desktop > i{
+
+.hide-mobile.show-desktop > i{ /*color, margen y tama;o al boton con flecha*/
     color: #0AC693;
     font-size: 4em;
-    margin: 0.1em;
+    margin: 0.5em;
 }
 
 .green-area {

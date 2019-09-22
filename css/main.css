@@ -204,8 +204,7 @@ ul li{ /*modificar articulos*/
 
 
 .big-hero > .container{/*margenes a container en about*/
-    /* margin-left: 20px; */
-    margin-right: 30px;
+    margin: 2em;
 }
 
 .about h2 {
